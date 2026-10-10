@@ -1,0 +1,81 @@
+{
+  "source": "机器人_obj.rar",
+  "units": "meters",
+  "up": "+Y",
+  "front": "+Z",
+  "leftSide": "+X",
+  "rigType": "continuous weighted skin",
+  "faces": 80000,
+  "vertices": 39992,
+  "bytes": 3042784,
+  "pivots": {
+    "root": [
+      0,
+      0,
+      0
+    ],
+    "torso": [
+      0,
+      1.02,
+      -0.04
+    ],
+    "head": [
+      0,
+      1.49,
+      -0.07
+    ],
+    "armLUpper": [
+      0.205,
+      1.415,
+      -0.105
+    ],
+    "armLLower": [
+      0.225,
+      1.19,
+      -0.12
+    ],
+    "handL": [
+      0.268,
+      0.925,
+      -0.025
+    ],
+    "fingerL": [
+      0.276,
+      0.842,
+      0.005
+    ],
+    "armRUpper": [
+      -0.205,
+      1.415,
+      -0.105
+    ],
+    "armRLower": [
+      -0.225,
+      1.19,
+      -0.12
+    ],
+    "handR": [
+      -0.268,
+      0.925,
+      -0.025
+    ],
+    "fingerR": [
+      -0.276,
+      0.842,
+      0.005
+    ]
+  },
+  "parents": {
+    "root": null,
+    "torso": "root",
+    "head": "torso",
+    "armLUpper": "torso",
+    "armLLower": "armLUpper",
+    "handL": "armLLower",
+    "fingerL": "handL",
+    "armRUpper": "torso",
+    "armRLower": "armRUpper",
+    "handR": "armRLower",
+    "fingerR": "handR"
+  }
+}
